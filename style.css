@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+
+}
+
+body {
+    display: grid;
+    grid-template-rows: 7% 13% 60% 20%;
+}
+
+header {
+    background-color: olivedrab;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+
+}
+header2 {
+    background-color: sandybrown;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+
+main {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
+footer {
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.left {
+    border: solid 1px black;
+}
+
+.nav {
+    text-align: center;
+}
+
+.middle {
+    border: solid 1px black;
+}
+
+.right {
+    border: solid 1px black;
+}
+
+.blank {
+    border: solid 1px black;
+}
+
+.break {
+    border: solid 1px black;
+}
+
+.center {
+    border: solid 1px black;
+}
+
+.article {
+    border: solid 1px black;
+}
